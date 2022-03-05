@@ -1,11 +1,13 @@
 
 
-
+import Layout from "../components/Layout"
 
 
 const About = () => {
   return (
-    <div>About</div>
+    <Layout>
+      This is my attempt at making a nice website :O
+    </Layout>
   )
 }
 

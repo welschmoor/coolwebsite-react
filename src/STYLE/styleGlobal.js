@@ -52,15 +52,19 @@ export const GlobalStyle = createGlobalStyle`
   html {
     font-size: 125%;
     font-family: Arial, Helvetica, sans-serif;
+    color: ${p => p.theme.TEXT.main};
+  }
+  body {
+    background-color: ${p => p.theme.BG.main};
   }
 `
 
 export const darkTheme = {
   BG: {
-    main: "#000",
+    main: "#383333",
   },
-  TEST: {
-    main: "#fff",
+  TEXT: {
+    main: "#e9dfdf",
 
   },
   MISC: {
